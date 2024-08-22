@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 .up {
@@ -49,7 +50,7 @@ ul {
     height: 40px;
     position: absolute;
     top: 250px;
-    left: 230px;
+    left: 170px;
     color: white;
 }
 
@@ -69,6 +70,8 @@ ul {
     padding: 10px 40px;
     font-size: 25px;
     color: #fd9c6b;
+    z-index: 3;
+    
 }
 .head >a:hover{
     background-color: #fd9c6b;
